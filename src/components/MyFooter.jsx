@@ -1,7 +1,7 @@
 import { Container,Row, Col } from "react-bootstrap";
 const MyFooter = function () {
   return (
-    <Container className="bg-primary text-white py-4 border border-1 border-white">
+    <Container fluid={true} className="bg-primary text-white py-4 border border-1 border-white">
       <Row>
         <Col md={12} className="mb-3 mb-md-0">
           <p className="mb-0 text-center">

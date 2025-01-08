@@ -1,7 +1,7 @@
 import { Alert } from "react-bootstrap";
 const Welcome = function () {
   return (
-    <Alert variant="primary">
+    <Alert variant="primary" className="mt-2">
       <h2 className="text-danger text-center fw-bold">
         Benvenuti nel sito di Epibooks
       </h2>
